@@ -1,0 +1,26 @@
+{
+  "name": "umi-plugin-demo",
+  "author": "Clownfish*^* <1416456019@qq.com>",
+  "version": "0.0.1",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build"
+  },
+  "keywords": [],
+  "authors": {
+    "name": "Clownfish*^* <1416456019@qq.com>",
+    "email": "1416456019@qq.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "father": "^4.3.1",
+    "typescript": "^5.2.2",
+    "umi": "^4.0.79"
+  }
+}
