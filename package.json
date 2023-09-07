@@ -1,26 +1,26 @@
 {
-  "name": "umi-plugin-demo",
+  "private": true,
   "author": "Clownfish*^* <1416456019@qq.com>",
-  "version": "0.0.1",
-  "main": "dist/cjs/index.js",
-  "types": "dist/cjs/index.d.ts",
   "scripts": {
-    "dev": "father dev",
-    "build": "father build"
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
   },
-  "keywords": [],
-  "authors": {
-    "name": "Clownfish*^* <1416456019@qq.com>",
-    "email": "1416456019@qq.com"
-  },
-  "license": "MIT",
-  "files": [
-    "dist"
-  ],
-  "devDependencies": {
-    "@types/node": "^20.5.9",
-    "father": "^4.3.1",
-    "typescript": "^5.2.2",
+  "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "ahooks": "^3.7.8",
+    "antd": "^5.8.6",
+    "mobx": "^6.10.2",
+    "node-sass": "^9.0.0",
+    "sass": "^1.66.1",
+    "sass-loader": "^13.3.2",
     "umi": "^4.0.79"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.2.2"
   }
 }
